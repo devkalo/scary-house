@@ -82,6 +82,7 @@ function solve() {
     saveBtn.addEventListener('click', onSave);
     function onSave() {
       mainElement.remove();
+      
       let h1Saved = document.createElement('h1');
       h1Saved.textContent = 'Your scary story is saved!';
       let bodyElement2 = document.createElement('div');
