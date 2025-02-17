@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/fantasyStories.jpg");
+  background-image: url('../images/fantasyStoriesNewImage.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -16,7 +16,6 @@ body {
   box-shadow: 40px 15px 19px -7px rgba(59, 53, 53, 1);
   -webkit-box-shadow: 40px 15px 19px -7px rgba(59, 53, 53, 1);
   -moz-box-shadow: 40px 15px 19px -7px rgba(59, 53, 53, 1);
-
 }
 
 .form-wrapper .inner-wrap {
@@ -43,7 +42,7 @@ body {
   border: 1px solid#e71313;
 }
 
-.form-wrapper h1>span {
+.form-wrapper h1 > span {
   display: block;
   margin-top: 1px;
   font: 14px Arial, Helvetica, sans-serif;
@@ -79,7 +78,7 @@ body {
 }
 
 .form-wrapper .section {
-  font: normal 20px "Bitter", serif;
+  font: normal 20px 'Bitter', serif;
   color: #e71313;
   margin-bottom: 5px;
 }
@@ -97,8 +96,8 @@ body {
   margin-top: -3px;
 }
 
-.form-wrapper input[type="button"],
-.form-wrapper input[type="submit"] {
+.form-wrapper input[type='button'],
+.form-wrapper input[type='submit'] {
   background: #e71313;
   padding: 8px 20px 8px 20px;
   border-radius: 5px;
@@ -110,8 +109,8 @@ body {
   font-size: 15px;
 }
 
-.form-wrapper input[type="button"]:hover,
-.form-wrapper input[type="submit"]:hover {
+.form-wrapper input[type='button']:hover,
+.form-wrapper input[type='submit']:hover {
   background: #e71313;
   box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
 }
@@ -208,7 +207,6 @@ body {
   font-size: 22px;
   margin: 5px;
   color: #888;
-
 }
 
 .story-info p:last-child {
@@ -222,7 +220,7 @@ article {
   border-radius: 10px;
 }
 
-#main>h1 {
+#main > h1 {
   text-align: center;
   margin-top: 25%;
   font-size: 6rem;
